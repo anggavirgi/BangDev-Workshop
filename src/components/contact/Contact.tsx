@@ -1,5 +1,3 @@
-import React from "react";
-
 export const Contact = () => {
   return (
     <div className="py-8" id="contact">
