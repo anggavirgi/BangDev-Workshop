@@ -110,3 +110,8 @@
   font-weight: 900;
   font-style: italic;
 }
+
+.cta {
+  background-image: url("./assets/img/cta.png");
+  background-size: cover;
+}
