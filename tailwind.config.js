@@ -8,8 +8,8 @@ export default {
         secondary: "#FFC108",
       },
       screens: {
-        laptop: "1024px",
-        desktop: "1400px",
+        laptop: "1279px",
+        desktop: "1600px",
       },
     },
   },

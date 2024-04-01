@@ -1,7 +1,8 @@
 import img3 from "../../assets/img/img3.png";
+
 export const Technology = () => {
   return (
-    <div className="grid grid-cols-2 py-8" id="tech">
+    <div className="grid grid-cols-2 py-8 gap-10 laptop:gap-0" id="tech">
       <div className="py-8">
         <div className="text-4xl poppins-semibold py-1.5 border-b-2 border-secondary w-1/2">
           Our Technology
@@ -10,7 +11,7 @@ export const Technology = () => {
           Teknologi yang kami gunakan dalam pembuatan website klien kami. Kami
           berusaha menggunakan teknologi terbaru dan terbaik untuk klien kami.
         </div>
-        <div className="mt-6 desktop:mt-9 p-10 flex flex-col gap-4">
+        <div className="mt-6 desktop:mt-9 py-5 laptop:p-10 flex flex-col gap-4 text-xs laptop:text-sm desktop:text-base">
           <div className="flex gap-4 items-center poppins-medium">
             <div className="border-2 border-primary rounded-sm px-10 py-1 text-primary">
               ReactJS
@@ -75,7 +76,7 @@ export const Technology = () => {
         <img
           src={img3}
           alt="cover3"
-          className="w-[500px] desktop:w-[600px] mx-auto"
+          className="w-full laptop:w-[500px] desktop:w-[600px] lg:h-[450px] laptop:h-full lg:object-cover laptop:mx-auto"
         />
       </div>
     </div>

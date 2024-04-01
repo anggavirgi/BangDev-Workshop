@@ -7,11 +7,11 @@ export const Contact = () => {
         </div>
         <div className="relative flex items-center justify-center mt-10 ms-60 desktop:ms-48">
           <div className="text-lg bg-primary/90 text-white rounded-md desktop:w-2/3 py-11 ps-60 pe-24">
-            <div className="text-2xl poppins-semibold tracking-wide">
+            <div className="text-xl laptop:text-2xl poppins-semibold tracking-wide">
               Kirim pertanyaan anda !
             </div>
-            <div className="mt-10 grid grid-cols-2 gap-x-24 gap-y-10">
-              <div className="text-base flex flex-col gap-1">
+            <div className="mt-10 grid grid-cols-2 gap-x-24 gap-y-10 text-sm laptop:text-base">
+              <div className="flex flex-col gap-1">
                 <label
                   htmlFor="nama"
                   className="text-secondary poppins-semibold"
@@ -25,7 +25,7 @@ export const Contact = () => {
                   className="px-4 py-1.5 outline-none bg-transparent border-b-2 border-white/80 placeholder-white/80"
                 />
               </div>
-              <div className="text-base flex flex-col gap-1">
+              <div className="flex flex-col gap-1">
                 <label
                   htmlFor="email"
                   className="text-secondary poppins-semibold"
@@ -39,7 +39,7 @@ export const Contact = () => {
                   className="px-4 py-1.5 outline-none bg-transparent border-b-2 border-white/80 placeholder-white/80"
                 />
               </div>
-              <div className="text-base flex flex-col gap-1">
+              <div className="flex flex-col gap-1">
                 <label
                   htmlFor="subjek"
                   className="text-secondary poppins-semibold"
@@ -53,7 +53,7 @@ export const Contact = () => {
                   className="px-4 py-1.5 outline-none bg-transparent border-b-2 border-white/80 placeholder-white/80"
                 />
               </div>
-              <div className="text-base flex flex-col gap-1">
+              <div className="flex flex-col gap-1">
                 <label
                   htmlFor="nomor"
                   className="text-secondary poppins-semibold"
@@ -68,7 +68,7 @@ export const Contact = () => {
                 />
               </div>
             </div>
-            <div className="text-base flex flex-col gap-1 mt-10">
+            <div className="text-sm laptop:text-base flex flex-col gap-1 mt-10">
               <label
                 htmlFor="pesan"
                 className="text-secondary poppins-semibold"
@@ -89,7 +89,7 @@ export const Contact = () => {
             </div>
           </div>
 
-          <div className="absolute -left-44 desktop:left-10 bg-white shadow-lg px-20 py-20 rounded-md">
+          <div className="absolute -left-56 laptop:-left-44 desktop:left-10 bg-white shadow-lg px-20 py-20 rounded-md">
             <div className="text-xl poppins-semibold">Informasi kontak</div>
             <div className="flex flex-col gap-3.5 mt-6 mb-6">
               <div className="flex gap-4">
